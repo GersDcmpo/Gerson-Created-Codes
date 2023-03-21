@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="MainPanel" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="MainPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="MainPanel">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="99" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="placeOrder" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="placeOrder" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="placeOrder">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="66" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jPanel4" alignment="1" max="32767" attributes="0"/>
+                          <Component id="pizzaSize" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jPanel3" alignment="1" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jPanel6" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="btnExit" min="-2" pref="101" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnConfirm" min="-2" pref="101" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="pizzaSize" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jPanel4" min="-2" pref="198" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jPanel5" max="32767" attributes="0"/>
+                          <Component id="jPanel6" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="18" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnConfirm" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnExit" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="pizzaSize">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="smallPizza" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="mediumPizza" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="largePizza" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="xlargePizza" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="16" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="smallPizza" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="mediumPizza" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="largePizza" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="xlargePizza" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Pizza Size"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="smallPizza">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Small ($4.00)"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="smallPizzaActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="mediumPizza">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Medium ($7.00)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="largePizza">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Large ($10.00)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="xlargePizza">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Extra Large ($18.00)"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                  <Component id="normalCrust" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="130" max="-2" attributes="0"/>
+                                  <Component id="cheesyCrust" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="sausageCrust" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="normalCrust" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cheesyCrust" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="sausageCrust" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Crust"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="normalCrust">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Normal"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="normalCrustActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="cheesyCrust">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cheesy"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="sausageCrust">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Sausage"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel4">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="pepperoni" min="-2" max="-2" attributes="0"/>
+                                      <Component id="extraCheese" min="-2" max="-2" attributes="0"/>
+                                      <Component id="mushroom" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="ham" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="bacon" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="groundBeef" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jalapeno" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="pineapple" min="-2" max="-2" attributes="0"/>
+                              <Component id="driedShrimps" min="-2" max="-2" attributes="0"/>
+                              <Component id="anchovies" min="-2" max="-2" attributes="0"/>
+                              <Component id="sunDriedTomatoes" min="-2" max="-2" attributes="0"/>
+                              <Component id="spinach" min="-2" max="-2" attributes="0"/>
+                              <Component id="roastedGarlic" min="-2" max="-2" attributes="0"/>
+                              <Component id="shreddedChicken" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="pepperoni" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="pineapple" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="extraCheese" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="driedShrimps" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="mushroom" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="anchovies" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="ham" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="sunDriedTomatoes" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="bacon" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="spinach" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="groundBeef" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="roastedGarlic" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jalapeno" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="shreddedChicken" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Toppings ($0.75 each)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="pepperoni">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Pepperoni"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="extraCheese">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Extra Cheese"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="mushroom">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Mushroom"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="ham">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Ham"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="bacon">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Bacon"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="groundBeef">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Ground Beef"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="jalapeno">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Jalapeno"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="pineapple">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Pineapple"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="driedShrimps">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Dried Shrimps"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="anchovies">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Anchovies"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="sunDriedTomatoes">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Sun Dried Tomatoes"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="spinach">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Spinach"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="roastedGarlic">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Roasted Garlic"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="shreddedChicken">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Shredded Chicken"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel5">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="coke" min="-2" max="-2" attributes="0"/>
+                                      <Component id="dietCoke" min="-2" max="-2" attributes="0"/>
+                                      <Component id="icedTea" min="-2" max="-2" attributes="0"/>
+                                      <Component id="gingerAle" min="-2" max="-2" attributes="0"/>
+                                      <Component id="sprite" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rootBeer" min="-2" max="-2" attributes="0"/>
+                                      <Component id="water" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jLabel5" max="32767" attributes="0"/>
+                                      <Component id="cokeField" max="32767" attributes="0"/>
+                                      <Component id="dCokeField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="icedTeaField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="gingerAleField" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="spriteField" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="rootBeerField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="waterField" alignment="0" min="-2" pref="49" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="31" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cokeField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="coke" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="dCokeField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="dietCoke" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="icedTeaField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="icedTea" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="gingerAleField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="gingerAle" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="spriteField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="sprite" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="rootBeerField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="rootBeer" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="waterField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="water" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel4">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Drinks"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel5">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Quantity"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="cokeField">
+                </Component>
+                <Component class="javax.swing.JTextField" name="dCokeField">
+                </Component>
+                <Component class="javax.swing.JTextField" name="icedTeaField">
+                </Component>
+                <Component class="javax.swing.JTextField" name="gingerAleField">
+                </Component>
+                <Component class="javax.swing.JTextField" name="spriteField">
+                </Component>
+                <Component class="javax.swing.JTextField" name="rootBeerField">
+                </Component>
+                <Component class="javax.swing.JTextField" name="waterField">
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="coke">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Coke ($1.45)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="dietCoke">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Diet Coke ($1.45)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="icedTea">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Iced Tea ($1.45)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="gingerAle">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Ginger Ale ($1.45)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="sprite">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Sprite ($1.45)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="rootBeer">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Root Beer ($1.45)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="water">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Water ($1.25)"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel6">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="poutine" min="-2" max="-2" attributes="0"/>
+                                      <Component id="chickenWings" min="-2" max="-2" attributes="0"/>
+                                      <Component id="onionRings" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cheesyGarlicBread" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="garlicDip" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="bbqDip" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="sourCreamDip" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="chickenWings" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="poutine" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="onionRings" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cheesyGarlicBread" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="garlicDip" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="bbqDip" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="sourCreamDip" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel6">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Other Items"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="chickenWings">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Chicken Wings ($3.00)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="poutine">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Poutine ($3.00)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="onionRings">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Onion Rings ($3.00)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cheesyGarlicBread">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cheesy Garlic Bread ($3.00)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="garlicDip">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Garlic Dip (Free)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="bbqDip">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="BBQ Dip (Free)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="sourCreamDip">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Sour Cream Dip (Free)"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="btnConfirm">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Confirm Order"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnConfirmActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnExit">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Exit"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnExitActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
